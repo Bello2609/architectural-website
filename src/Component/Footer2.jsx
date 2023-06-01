@@ -4,8 +4,8 @@ const Footer2 = ()=>{
     return(
         <>
             <Box p={10} display="flex"  alignItems="center" justifyContent="space-between" bg="#000" height="150px" color="#fff">
-                <Text as="bold">share us</Text>
-                <Text as="bold">share us</Text>
+                <Text as="b">share us</Text>
+                <Text as="b">share us</Text>
                 <Text as="bold">share us</Text>
                 <Text as="bold">share us</Text>
                 <Text as="bold">share us</Text>

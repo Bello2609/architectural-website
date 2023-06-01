@@ -6,10 +6,10 @@ const Footer1 = ()=>{
         <>
             <Box p={10} display="flex" flexDirection="column" alignItems="center">
                 <Heading as="h5" fontSize='xl'>
-                    We've worked in iconic natural settings, historic towns, and growing cities,
+                    At AFOLUCK Nig Ltd, we are committed to excellence in every project we undertake. 
                 </Heading>
                 <Heading as="h5" fontSize='xl'>
-                    across 6 continents and 51 countries.
+                    With our unwavering dedication to quality, innovation, and client satisfaction, we have established
                 </Heading>
                 <Box display="flex" my={5}>
                   <Box display="flex" alignItems="center" cursor="pointer">

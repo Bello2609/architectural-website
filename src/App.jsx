@@ -15,15 +15,18 @@ const App = ()=>{
           <Header />
           <ImageSlider />
           <Box display="flex" p={10} mt={10}>
-            <Box display="flex" flexDirection="column" >
+            <Box width="50vw">
                 <Heading as="h5" fontStyle="italic">
                     About Us
                 </Heading>
                 <Wrap my={5}>
                   <WrapItem color="gray.500" fontSize='lg' fontWeight="400">
-                    We are a team of planners, architects, landscape architects and interior designers
-                    headquartered in New York and San Francisco with a network of domestic and international 
-                    offices.
+                  Welcome to AFOLUCK Nig Ltd, your premier destination for exceptional hospitality and
+                   architectural services. We are a renowned company with a strong reputation for 
+                   delivering outstanding projects that combine exquisite design and unparalleled 
+                   hospitality experiences. Whether you are seeking to create a luxurious hotel, 
+                   a breathtaking resort, or an awe-inspiring architectural masterpiece, we have the
+                    expertise and vision to bring your dreams to life.
                   </WrapItem>
                 </Wrap>
                 <Box display="flex" alignItems="center" cursor="pointer">
@@ -31,15 +34,18 @@ const App = ()=>{
                   <Icon as={BsArrowRight} />
                 </Box>
             </Box>
-            <Box>
+            <Box width="50vw">
                 <Heading as="h5" fontStyle="italic">
                         About Us
                 </Heading>
                 <Wrap my={5} >
                   <WrapItem color="gray.500" fontSize='lg' fontWeight="400">
-                    We are a team of planners, architects, landscape architects and interior designers
-                    headquartered in New York and San Francisco with a network of domestic and international 
-                    offices.
+                  Welcome to AFOLUCK Nig Ltd, your premier destination for exceptional hospitality and
+                   architectural services. We are a renowned company with a strong reputation for 
+                   delivering outstanding projects that combine exquisite design and unparalleled 
+                   hospitality experiences. Whether you are seeking to create a luxurious hotel, 
+                   a breathtaking resort, or an awe-inspiring architectural masterpiece, we have the
+                    expertise and vision to bring your dreams to life.
                   </WrapItem>
                 </Wrap>
                 <Box display="flex" alignItems="center" cursor="pointer">
@@ -56,7 +62,7 @@ const App = ()=>{
                   <img src={images.cert} alt="cert" />
                   <Wrap>
                       <WrapItem color="gray.500" fontSize='lg' fontWeigt="400">
-                          Hart Howerton is a certified B Corp. This certification means we meet the 
+                          AFOLUCK Nig Ltd is a certified B Corp. This certification means we meet the 
                           highest standards of verified social and environmental performance, 
                           sustainability, public transparency, and legal accountability.
                            Becoming a B Corp also means that our long-held values of inclusion, 
