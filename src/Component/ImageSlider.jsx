@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Text, Image } from "@chakra-ui/react";
 import { css } from "@emotion/react";
 import * as images from "../../images";
 
@@ -12,32 +12,32 @@ const ImageSlider = ()=>{
                 <Box position="relative">
                     <Fade>
                         <Box css={styles.eachSlide}>
-                            <img src={images.slide1} css={styles.img_img} />
+                            <Image src={images.slide1} objectFit="cover" maxW={{ base: "100vw", sm: "100vw" }} css={styles.img_img} />
                             <Box css={styles.img_caption} zIndex="100000"    width="100%" height="200px"  display="flex" flexDirection="column" justifyContent="center" alignItems="center" >
                                 <Heading as="h5">
-                                    Hart Howerton
+                                    AFOLUCK Nig Ltd
                                 </Heading>
-                                <Text>NEW YORK SAN FRANCISCO</Text>
+                                <Text>LAGOS NIGERIA</Text>
                                 <Heading>We are team of planner, architects</Heading><Heading>landscape architect and interior designers</Heading>
                             </Box>
                         </Box>
                         <Box css={styles.eachSlide}>
-                            <img src={images.slide2} css={styles.img_img} />
+                            <Image src={images.slide2} objectFit="cover" maxW={{ base: "100vw", sm: "100vw" }} css={styles.img_img} />
                             <Box css={styles.img_caption} zIndex="100000" width="100%" height="200px"  display="flex" flexDirection="column" justifyContent="center" alignItems="center" >
                                 <Heading as="h5">
-                                    Hart Howerton
+                                    AFOLUCK Nig Ltd
                                 </Heading>
-                                <Text>NEW YORK SAN FRANCISCO</Text>
+                                <Text>LAGOS NIGERIA</Text>
                                 <Heading>We are team of planner, architects</Heading><Heading>landscape architect and interior designers</Heading>
                             </Box>
                         </Box>
                         <Box css={styles.eachSlide}>
-                            <img src={images.slide3} css={styles.img_img} />
+                            <Image src={images.slide3} objectFit="cover" maxW={{ base: "100vw", sm: "100vw" }}  css={styles.img_img} />
                             <Box css={styles.img_caption} zIndex="100000" width="100%" height="200px"  display="flex" flexDirection="column" justifyContent="center" alignItems="center" >
                                 <Heading as="h5">
-                                    Hart Howerton
+                                    AFOLUCK Nig Ltd
                                 </Heading>
-                                <Text>NEW YORK SAN FRANCISCO</Text>
+                                <Text>LAGOS NIGERIA</Text>
                                 <Heading>We are team of planner, architects</Heading>
                                 <Heading>landscape architect and interior designers</Heading>
                             </Box> 
