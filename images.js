@@ -8,6 +8,7 @@ import slide3 from "./src/assets/slide3.jpg";
 import slide4 from "./src/assets/slide4.jpg";
 import slide5 from "./src/assets/slide5.jpg";
 import cert from "./src/assets/cert.jpg";
+import logo from "./src/assets/AFOLUCK02.png";
 export {
     headerLogo,
     shift,
@@ -16,5 +17,6 @@ export {
     slide3,
     slide4,
     slide5,
-    cert
+    cert,
+    logo
 }
