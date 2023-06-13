@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import * as image from "../../images";
-import { Box } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 
 const Header = ()=>{
     useEffect(()=>{
@@ -12,7 +12,7 @@ const Header = ()=>{
         <>
             <Box bg="#fff" opacity="0.8" position="fixed" top="0px" zIndex="100000" display="flex" w="100%" alignItems="center" justifyContent="space-between" p={10} height={100} >
                     <img src={image.logo} alt="my svg" width="150px" height="100px" />
-                    <h2 className='text-red-400'>AFOLUCK NIG LTD</h2>
+                    <Text as="h2" fontWeight="bold" color="#D2BD6F">AFOLUCK NIG LTD</Text>
             </Box>
         </>
     );

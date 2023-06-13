@@ -7,7 +7,7 @@ const Feature = ()=>{
     return (
         <>
             <Box>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden'>
                     <Image src={images.slide5} objectFit='cover'  alt="slide5" />
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%"  height="100%" >
@@ -29,7 +29,7 @@ const Feature = ()=>{
                         </CardBody>
                     </Stack>
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }} variant='outline'>
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden'  variant='outline'>
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Architecture Services</Text>
@@ -46,10 +46,10 @@ const Feature = ()=>{
                             </Button>
                         </CardBody>
                     </Stack>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                    <Image src={images.slide6} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
+                    <Image src={images.slide7} objectFit='contain' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Architecture Services</Text>
@@ -67,7 +67,7 @@ const Feature = ()=>{
                         </CardBody>
                     </Stack>
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Architecture Services</Text>
@@ -84,10 +84,10 @@ const Feature = ()=>{
                             </Button>
                         </CardBody>
                     </Stack>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                    <Image src={images.slide9} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
+                    <Image src={images.slide10} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Architecture Services</Text>
@@ -106,7 +106,7 @@ const Feature = ()=>{
                         </CardBody>
                     </Stack>
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Services</Text>
@@ -124,10 +124,10 @@ const Feature = ()=>{
                             </Button>
                         </CardBody>
                     </Stack>
-                        <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                        <Image src={images.slide11} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
+                    <Image src={images.slide12} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                                 <Text as="b" fontSize="sm">Hospitality Services</Text>
@@ -147,7 +147,7 @@ const Feature = ()=>{
                         </CardBody>
                     </Stack>
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}> 
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' > 
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
                             <Text as="b" fontSize="sm">Hospitality Services</Text>
@@ -165,9 +165,9 @@ const Feature = ()=>{
                             </Button>
                         </CardBody>
                     </Stack>
-                    <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
+                    <Image src={images.slide13} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                 </Card>
-                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' mb={{ base: "5" }}>
+                <Card display="flex" direction={{ base: 'column', sm: 'row' }} with="100%" overflow='hidden' >
                     <Image src={images.slide5} objectFit='cover' maxW={{ base: '100%', sm: '40%' }} alt="slide5" />
                     <Stack>
                         <CardBody display="flex" flexDirection="column"  justifyContent="center" pl="10" bg="#f7f7f7" width="100%" height="100%" >
